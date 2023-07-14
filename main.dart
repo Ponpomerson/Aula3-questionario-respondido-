@@ -1,5 +1,11 @@
 /// Import do exercício 01 (exemplo):
+import 'dart:io';
+
 import 'ex01.dart';
+import 'ex02.dart';
+import 'ex04.dart';
+import 'ex05.dart';
+import 'ex06.dart';
 
 /// Use esse arquivo como base para realizar a atividade.
 /// Ao entregar, coloque seu e-mail no campo abaixo.
@@ -24,6 +30,7 @@ void main() {
   ///
   /// Exercício 02:
   print("\n----------\n Exercício 02:\n");
+  imprimirdecrescente10a1();
 
   ///
   /// Exercício 03:
@@ -32,14 +39,21 @@ void main() {
   ///
   /// Exercício 04:
   print("\n----------\n Exercício 04:\n");
+  somapar();
 
   ///
   /// Exercício 05:
   print("\n----------\n Exercício 05:\n");
+  print("Digite o numero: ");
+  int numero = int.parse(stdin.readLineSync()!);
+
+  tabuada(numero);
 
   ///
   /// Exercício 06:
   print("\n----------\n Exercício 06:\n");
+  List<double> lista = [10, 11, 12, 15];
+  media(lista);
 
   ///
   /// Exercício 07:

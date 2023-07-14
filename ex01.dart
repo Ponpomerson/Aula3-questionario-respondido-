@@ -7,3 +7,7 @@ void imprimirCrescente1a10() {
     print("Número $i");
   }
 }
+
+void main() {
+  imprimirCrescente1a10();
+}
